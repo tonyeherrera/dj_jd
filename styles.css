@@ -1,0 +1,40 @@
+html,body{
+    background-color:grey;
+    height:100%;
+    
+}
+#mainHead{
+    color: white;
+    font-size: 50px;
+    border: 5px solid white;
+    text-align:center;
+    margin-left:90%;
+    position: relative;
+
+
+}
+#square{
+    border: 20px outset whitesmoke;
+    width: 200px;
+    height:200px;
+    background-color: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+
+}
+.footerContainer{
+    bottom: 0;
+    position: sticky;
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    position: sticky;
+    
+
+}
